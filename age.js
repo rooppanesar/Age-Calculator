@@ -8,9 +8,6 @@ function age() {
     var m2 = 1 + date.getMonth();
     var y2 = date.getFullYear();
     var month = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
-    if(m2 > 12){
-        console.log("Error");
-    }
     if (d1 > d2) {
         d2 = d2 + month[m2 - 1];
         m2 = m2 - 1;
