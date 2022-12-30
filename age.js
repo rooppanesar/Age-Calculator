@@ -22,4 +22,5 @@ function age() {
     var y = y2 - y1;
     document.getElementById("age").innerHTML =
         "Your Age is " + y + " Years " + m + " Months " + d + " Days";
+        console.log("Made by Rupinder Singh")
 }
