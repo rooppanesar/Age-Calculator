@@ -1,3 +1,13 @@
+// const input = docu.getElementById("age");
+// function Alert(){
+//     alert(finalAge.value);
+// }
+// input.addEventListener('keyup', (e) => {
+// if(e.keycode ===13){
+//     alert();
+// }
+// });
+
 function age() {
     var d1 = document.getElementById("date").value;
     var m1 = document.getElementById("month").value;
@@ -20,7 +30,7 @@ function age() {
     var d = d2 - d1;
     var m = m2 - m1;
     var y = y2 - y1;
-    document.getElementById("age").innerHTML =
+    var finalAge = document.getElementById("age").innerHTML =
         "Your Age is " + y + " Years " + m + " Months " + d + " Days";
         console.log("Made by Rupinder Singh")
 }
